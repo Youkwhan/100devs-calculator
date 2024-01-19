@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin: 0 auto;
+  background-color: darkcyan;
+  padding: 20px;
+  border-radius: 20px;
+}
+input {
+  height: 50px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.row {
+  display: flex;
+}
+button {
+  flex: 1;
+  height: 40px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+}
